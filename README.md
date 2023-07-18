@@ -1,4 +1,4 @@
-# ☯ Micro-front-end demo - Vue2 subproject
+# ☯ Micro-front-end demo - Vue3 subproject
 
 基于 qiankun 搭建的一款微前端项目。该仓库为基于 Vue3 创建的子项目。
 
