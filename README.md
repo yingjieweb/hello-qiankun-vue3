@@ -1,24 +1,11 @@
-# hello-qiankun-vue3
+# ☯ Micro-front-end demo - Vue2 subproject
 
-## Project setup
-```
-npm install
-```
+基于 qiankun 搭建的一款微前端项目。该仓库为基于 Vue3 创建的子项目。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+A micro-front-end project built based on qiankun. This repo is a subproject created based on Vue3.
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 基座 Base - [hello-qiankun](https://github.com/yingjieweb/hello-qiankun)
+- 子产品 Vue2 - [hello-qiankun-vue2](https://github.com/yingjieweb/hello-qiankun-vue2)
+- 子产品 Vue3 - [hello-qiankun-vue3](https://github.com/yingjieweb/hello-qiankun-vue3)
+- 子产品 React - [hello-qiankun-react](https://github.com/yingjieweb/hello-qiankun-react)
