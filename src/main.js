@@ -34,10 +34,13 @@ export async function bootstrap() {
 export async function mount(props) {
   console.log("[vue3] props from main framework", props);
   render(props);
+  instance.config.globalProperties.$onGlobalStateChange = props.onGlobalStateChange;
+  instance.config.globalProperties.$setGlobalState = props.setGlobalState;
 }
 export async function unmount() {
-  instance.$destroy();
-  instance.$el.innerHTML = "";
+  instance.unmount();
+  instance._container.innerHTML = '';
   instance = null;
   router = null;
+  history.destroy();
 }
